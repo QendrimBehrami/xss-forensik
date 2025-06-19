@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.npm/_logs/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.info
+
+# Directory for installing dependencies
+node_modules/
+jspm_packages/
+
+# TypeScript temp files
+*.tsbuildinfo
+
+# Compiled JavaScript (if not transpiled at build time to distribution directory)
+*.js
+!*.js
+# Exception for commonjs modules
+# This rule makes sure that a file not directly called from a module is ignored, but its parent directory is not
+# Example: node_modules/my-module/index.js -> ignored, but node_modules/my-module/ -> not ignored
+# It helps to keep track of dependencies in Git (e.g. via yarn.lock, package-lock.json)
+# if you only want to version source files, you should also include:
+# *.js
+# *.jsx
+# *.vue
+# *.ts
+# *.tsx
+# *.mjs
+# *.cjs
+# But if you commit transpiled files, you may want to exclude them.
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.history/
+
+# Build artifacts
+dist/
+build/
+out/
+es/
+lib/
+tmp/
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# npm package manager cache
+.npm/
+
+# macOS
+.DS_Store
+
+# Yarn
+.yarn/
+.yarnrc
+yarn-error.log
+.pnp.*
+
+# Testing
+/coverage
+/.nyc_output
+
+# misc
+.web

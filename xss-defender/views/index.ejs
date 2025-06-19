@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verwundbares Gästebuch</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        textarea { width: 80%; height: 100px; margin-bottom: 10px; }
+        div { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        h2 { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Verwundbares Gästebuch für XSS-Forensik</h1>
+    <form action="/add-comment" method="POST">
+        <textarea name="comment_text" placeholder="Hinterlasse einen Kommentar..."></textarea><br>
+        <button type="submit">Kommentar posten</button>
+    </form>
+
+    <h2>Kommentare:</h2>
+    <div>
+        <%- commentsHtml %>
+    </div>
+</body>
+</html>
